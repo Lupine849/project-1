@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/* common */
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #333;
+  text-decoration: underline 1px;
+  text-underline-offset: 10px;
+  text-align: center;
+}
+
+h3 {
+  margin: 8px 0 0;
+  font-size: 16px;
+  color: #333;
+}
+
+p {
+  margin:  12px 0 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  width: calc(100% - 48px);
+  box-sizing: border-box;
+}
+
+/* header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+h1 img {
+  width: 125px;
+  height: 50px;
+  vertical-align: bottom;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-item.item-1 {
+  width: 80px;
+}
+
+.header-nav-item {
+  cursor: pointer;
+}
+
+.header-nav-item:hover {
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* main */
+
+.main-div img {
+  width: 100%;
+  height: 640px;
+  object-fit: cover;
+}
+
+/* .main-section-1 */
+
+.main-section-1 {
+  padding: 64px 0 32px;
+}
+
+.main-section-1-div {
+  width: 400px;
+  margin: 56px auto 0;
+}
+
+.main-section-1-div img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+.main-section-1-div-2 {
+  text-align: center;
+}
+
+/* .main-section-2 */
+
+.main-section-2 {
+  padding: 64px 0 64px;
+}
+
+.main-section-2-list {
+  text-align: center;
+}
+
+.main-section-2-item img {
+  width: 440px;
+  margin-top: 32px;
+}
+
+.main-section-2-item.item-1 {
+  margin-top: 32px;
+}
+
+/* footer */
+
+footer {
+  padding: 64px 0 8px;
+  text-align: center;
+}
+
+small {
+  color: #333;
+  font-size: 8px;
+}
+
+/* large screen */
+
+@media (min-width: 600px) {
+
+  /* .main-section-1 */
+
+  .main-section-1-div {
+    gap: 32px;
+    width: 520px;
+    margin: 64px auto 0;
+    display: flex;
+  }
+
+  .main-section-1-div-3 h3 {
+    margin: 0;
+  }
+
+  /* main-section-2 */
+
+  .main-section-2-list {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+  }
+
+  .main-section-2-item {
+    margin-top: 32px;
+    flex: 1;
+  }
+
+  .main-section-2-item img {
+    width: 100%;
+  }
+
+}

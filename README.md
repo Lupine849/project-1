@@ -9,7 +9,7 @@
 - コード管理の学習（GitHub利用）
 
 ## 参考元デザイン
-- **デザイン提供**：Codejump様（https://code-jump.com/coding-recommend/）
+- **デザイン提供**：Codejump様（https://code-jump.com/profile-menu/）
 - 許可をいただき、ポートフォリオ掲載目的で模写しています。
 
 ## 使用素材について

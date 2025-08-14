@@ -94,9 +94,14 @@ a {
   padding: 64px 0 32px;
 }
 
+.about-wrapper {
+  max-width: 520px;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
 .main-section-1-div {
-  width: 400px;
-  margin: 56px auto 0;
+  margin: 58px 0 0 0;
 }
 
 .main-section-1-div img {
@@ -120,7 +125,7 @@ a {
 }
 
 .main-section-2-item img {
-  width: 440px;
+  width: 100%;
   margin-top: 32px;
 }
 
@@ -148,7 +153,6 @@ small {
 
   .main-section-1-div {
     gap: 32px;
-    width: 520px;
     margin: 64px auto 0;
     display: flex;
   }
@@ -161,17 +165,12 @@ small {
 
   .main-section-2-list {
     display: flex;
-    width: 100%;
     gap: 16px;
   }
 
   .main-section-2-item {
     margin-top: 32px;
     flex: 1;
-  }
-
-  .main-section-2-item img {
-    width: 100%;
   }
 
 }
